@@ -1,0 +1,24 @@
+import random
+import time
+
+def ran(x1, x2, x3):
+    print(x1)
+    time.sleep(1)
+    print(x2)
+    time.sleep(1)
+    print(x3)
+    time.sleep(1)
+    
+a1=random.randrange(1, 10)
+a2=random.randrange(1, 10)
+a3=random.randrange(1, 10)
+
+s=a1+a2+a3
+ran(a1, a2, a3)
+    
+a = int(input("값을 입력하세요 = "))
+
+if (a == s):
+    print("정답입니다")
+else:
+    print("틀렸습니다")
